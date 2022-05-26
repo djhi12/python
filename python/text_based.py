@@ -9,7 +9,7 @@ item = input(f"You are walking through a dark forest and find two item: " + "a M
 
 # scenario for match
 if item == "match": 
-    match = input("You pick up the match and strike it, and for an instant, the forest around you is illuminated. You see a large grizzly bear, and then the match burns out. Do you want to RUN, or HIDE behind a tree?") 
+    match = input("You pick up the match and strike it, and for an instant, the forest around you is illuminated. You see a large grizzly bear, and then the match burns out. Do you want to RUN, or HIDE behind a tree?")
 
     print() # space
 
