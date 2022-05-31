@@ -38,7 +38,7 @@ height_first_rider = int(input('What is the height of the first rider?'))
 if age_first_rider <= 18 and height_first_rider <= 46:
 
     second_rider_question = input('Is there a second rider (yes/no)?')
-    # print('Welcome to the ride. Please be safe and have fun!')
+   
 
     if second_rider_question == 'no':
         print('Sorry, you may not ride.')
