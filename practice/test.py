@@ -1,47 +1,66 @@
-# # user input
-# adjective = input("adjective: ")
-# animal = input("animal: ")
-# verb1 = input("verb: ")
-# exclamation = input(" exclamation: ")
-# verb2 = input("verb: ")
-# verb3 = input("verb: ")
+# print(f"You guessed {number}")
+
+# What is the magic number? 18
+# What is your guess? 5
+# Higher
+# What is your guess? 6
+# Higher
+# What is your guess? 7
+# Higher
+# What is your guess? 20
+# Lower
+# What is your guess? 19
+# Lower
+# What is your guess? 18
+# You guessed it!
 
 
+import random
 
-# print("The other day, I was really in trouble. It all started when I saw a very " + adjective + " " + animal + " " + verb1 + " " + "down the hallway." + " " + exclamation + " " + "I yelled. But all I could think to do was to " + verb2 + " " + "over and over. Miraculously, that caused it to stop, but not before it tried to " + verb3 + " " + "right infront of my family.")
+magic = random.randint(1, 100000000)
+guess = None
 
-# firstName = "Daniel John"
-# lastName = "Idorot"
-# print(firstName + " " + lastName)
+while guess != magic:
+    guess = input("What is your guess? ")
+    guess = int(guess)
 
-# # Need decimal by using float
-# lengthRectangle = float(input("What is the lenght of the rectangle? "))
-# # length = rectagle * 6
-# widthRectagle = float(input("What is the width of a side of the rectangle? "))
-# # width = rectagle * 7
-# print(f"The area of the rectangle is: {lengthRectangle*widthRectagle} ")
-
-
-# PI = 3.14
-# r = float(input("Enter the radius of a circle:"))
-# area = PI * r * r
-# print(area)
+    if guess == magic:
+        print("congratulations! you won!")
+        break
+    else:
+        print("nope, sorry. try again!")
 
 
+#############################################################
 
 
+# What is the magic number? 18
+# What is your guess? 5
+# Higher
+# What is your guess? 6
+# Higher
+# What is your guess? 7
+# Higher
+# What is your guess? 20
+# Lower
+# What is your guess? 19
+# Lower
+# What is your guess? 18
+# You guessed it!
 
+number = 0
+guess = "number"
 
+number = int(input("What is the magic number? "))
+number = int(input("What is your guess? "))
 
+while number < 0:
 
+    number = print("What is your guess? ")
 
+if number < 20:
+    int(input("Higher"))
 
+while number < 0:
 
-
-
-
-
-
-
-
-
+    print(f"Lower {number}")
