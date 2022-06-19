@@ -22,3 +22,6 @@ while action != len(action_list):
 
     else:
         print("Incorrect input. Try again")
+
+
+# print(action)
